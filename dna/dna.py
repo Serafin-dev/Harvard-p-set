@@ -17,13 +17,6 @@ def computeLongestRun(dnaSequence):
             iPoint += 1
         strs[s] = max(strs[s])
 
-# Show the resulting match or not if there isn't
-def checkIfMatch(row, values):
-        if list(strs.values()) == [int(i) for i in values]:
-            match = row["name"]
-            return print(match)
-        return print("No match")
-
 def main():
     with open(sys.argv[1], "r") as csvFile:
         strsList = csvFile.readline().rstrip().split(",")
