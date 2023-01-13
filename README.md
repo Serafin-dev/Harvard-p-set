@@ -1,4 +1,4 @@
-# Harvard-p-set: ADN
+# Harvard-p-set: DNA
 DNA es parte de una serie de p-sets del curso de Harvard "Introducción a la informática". Una experiencia divertida en el manejo de archivos Python.
 
 Mi trabajo consistía en tomar una secuencia de ADN y determinar a qué persona pertenece.
